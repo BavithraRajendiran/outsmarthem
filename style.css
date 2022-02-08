@@ -1,0 +1,71 @@
+body
+{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Montserrat', sans-serif;
+}
+/*---------------Header CSS---------------*/
+#header
+{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#videoBG
+{
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.87),rgba(0, 0, 0, 0.925));
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+#header img{
+    border-radius: 50%;
+}
+
+.ebutton {
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #014040,#061D26);
+    text-decoration: none !important;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left:100px;
+    
+    margin-right:100px;
+    font-size: 14px;
+}
+
+.user-box
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.user-box img
+{
+    border-radius: 0%;
+    width: 150px;
+    border: 0px solid #141414;
+}
+.user-box h1
+{
+    color: #fff;
+    margin: 15px;
+    letter-spacing:3px;    
+}
+.user-box p
+{
+    color: #fff;
+}
